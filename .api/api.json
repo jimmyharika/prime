@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "keeptruckin-public-api",
+      "source": "@keeptruckin-public-api/v1#dl3plw7xv7h9",
+      "integrity": "sha512-YMymoTvmU51ivcLfjnMgD+NXUeWZed4lpgwJ9Lc6qpg3c/a0endlkio5/owgo6tvMP2sA/9t00pfaAT/JK6inA==",
+      "installerVersion": "6.1.2"
+    }
+  ]
+}
