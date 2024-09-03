@@ -1,11 +1,7 @@
-// next.config.mjs
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  images: {
-    domains: ['images.unsplash.com'],
-  },
+  transpilePackages: ['framer-motion'],
 }
 
 export default nextConfig;

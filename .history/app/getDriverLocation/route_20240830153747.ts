@@ -1,4 +1,3 @@
-// app/api/getDriverLocation/route.ts
 import { NextResponse } from 'next/server';
 import axios from 'axios';
 
@@ -21,6 +20,7 @@ export async function GET(request: Request) {
         page_no: '1',
       },
     });
+
     return NextResponse.json(response.data);
   } catch (error) {
     console.error('Error fetching driver location:', error);
