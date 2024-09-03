@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <Image src="/images/t3.jpg" alt="PrimeFlatbeds team" width={600} height={400} className="rounded-lg shadow-md" />
+            <Image src="/images/t2.jpg" alt="PrimeFlatbeds team" width={600} height={400} className="rounded-lg shadow-md" />
           </div>
           <div className="md:w-1/2 md:pl-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Driving Excellence Across Borders</h2>

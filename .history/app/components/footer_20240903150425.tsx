@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <footer className="bg-background py-12 text-foreground">
-      <div className="container mx-auto px-4 justify-between">
+      <div className="container mx-auto px-4">
         <div className="grid gap-8 md:grid-cols-4">
           <div>
             <h3 className="mb-4 text-xl font-semibold">PrimeFlatbeds</h3>
@@ -23,9 +23,16 @@ const Footer = () => {
             <h4 className="mb-4 text-lg font-semibold">Contact Us</h4>
             <p>30A Kennedy Road S <br/>Brampton, ON, L6W3E2</p>
             <p>Email: info@primeflatbeds.com</p>
-            <p>Phone: +1 (647) 615-9707</p>
+            <p>Phone: (800) 555-HAUL</p>
           </div>
-         
+          <div>
+            <h4 className="mb-4 text-lg font-semibold">Follow Us</h4>
+            <div className="flex space-x-4">
+              <Link href="#" className="hover:text-primary">Facebook</Link>
+              <Link href="#" className="hover:text-primary">Twitter</Link>
+              <Link href="#" className="hover:text-primary">LinkedIn</Link>
+            </div>
+          </div>
         </div>
         <div className="mt-8 border-t border-border pt-8 text-center">
           <p>&copy; 2024 PrimeFlatbeds. All rights reserved.</p>

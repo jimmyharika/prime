@@ -9,7 +9,6 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { Menu, X } from "lucide-react"
-import { ModeToggle } from '@/components/ModeToggle'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -40,8 +39,8 @@ const Header = () => {
             ))}
           </nav>
         </div>
+
         <div className="flex items-center space-x-4">
-          <ModeToggle />
           <Button className="hidden md:inline-flex">Get a Quote</Button>
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
@@ -63,9 +62,6 @@ const Header = () => {
                   </Link>
                 ))}
                 <Button className="mt-6 w-full">Get a Quote</Button>
-                <div className="mt-6 flex justify-center">
-                  <ModeToggle />
-                </div>
               </nav>
             </SheetContent>
           </Sheet>
